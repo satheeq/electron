@@ -1,2 +1,2 @@
 # electron
-Integration app demo using Electron
+Desktop app demo using Electron
