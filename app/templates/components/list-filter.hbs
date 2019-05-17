@@ -1,0 +1,13 @@
+<button {{action "spawn"}}>Child Window</button>
+{{input
+  value=this.testVal
+}}
+<button {{action "setData"}}>Set Data</button>
+
+{{input
+  value=this.value
+  key-up=(action "handleFilterEntry")
+  class="light"
+  placeholder="Filter By City"
+}}
+{{yield this.results}}
